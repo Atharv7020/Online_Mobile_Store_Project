@@ -1,0 +1,161 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit] :hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+body{
+    
+    background: url('signup.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+   
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+  height: 160px;
+}
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  margin-top: 40px;
+  width: 700px;
+  border: 2px solid #f1f1f1;
+}
+.container1 {
+    padding: 30px;
+    border: 1px solid #060000;
+  }
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+ 
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #011014;
+}
+
+.logo{
+    margin-left: 1;
+    margin-right: 20px;
+    cursor: pointer;
+    height: 60px;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav__links li a:hover {
+    color: #00a9a9;
+
+}
+
+.hover-line::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #00a9a9;
+    transition:width .3;
+}
+
+.hover-line:hover::after{
+    width: 100%;
+    transition: width .5s;
+}
+button{
+    padding: 9px;
+    background-color: rgba(0,136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.SU{
+    text-align: center;
+    color: #6fb00d;
+}
+
+.SU a{
+  color: rgb(26, 3, 3);
+}

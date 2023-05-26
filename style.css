@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+ 
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #011014;
+}
+
+.logo{
+    margin-left: 1;
+    margin-right: 20px;
+    cursor: pointer;
+    height: 60px;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav__links li a:hover {
+    color: #00a9a9;
+
+}
+
+.hover-line::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #00a9a9;
+    transition:width .3;
+}
+
+.hover-line:hover::after{
+    width: 100%;
+    transition: width .5s;
+}
+button{
+    padding: 9px;
+    background-color: rgba(0,136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+body{
+    background: #f6f6f6;
+}
+.slider-box{
+    min-width: 1440px;
+    min-height: 770px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#slider{
+    width: 100%;
+    display: inline-flex;
+    transition: 0.7s;
+}
+
+#slider img{
+    width: 100%;
+    margin:0;
+    cursor: pointer;
+}
+
+.indicators{
+    position: absolute;
+    left: 50%;
+    bottom: 200px;
+    transform: translateX(-50%);
+}
+
+.indicators span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.active{
+    background: #fff !important;
+}
+.main{
+    display: flex;
+    padding-left: 300px;
+}
+.container{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    margin-left: -320px;
+    margin-top: -180px;
+}
+*{
+    position: middle;
+}
+
+.container .card
+{
+    width: 400px;
+    position: relative;
+    height: 490px;
+    background: #d5d3d3;
+    margin: 40px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+}
+.container .card .imgBX{
+    position:relative;
+    width: 260px;
+    height: 260px;
+    top: 50px;
+    left: 50px;
+    
+}
+
+.container .card .imgBX img{
+    margin-top: 30px;
+    margin-left: -20px;
+    height: 82%;
+    max-width: 120%;
+    border-radius: 10px;
+    transition: transform .7s;
+}
+
+.container .card .imgBX1{
+    position:relative;
+    width: 260px;
+    height: 260px;
+    top: 50px;
+    left: 50px;
+    
+}
+
+.container .card .imgBX1 img{
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 82%;
+    max-width: 120%;
+    border-radius: 10px;
+    transition: transform .7s;
+}
+
+.container .card .imgBX2{
+    position:relative;
+    width: 260px;
+    height: 260px;
+    top: 50px;
+    left: 50px;
+    
+}
+
+.container .card .imgBX2 img{
+    margin-top: 30px;
+    margin-left: 35px;
+    height: 82%;
+    max-width: 120%;
+    border-radius: 10px;
+    transition: transform .7s;
+}
+
+.imgBX:hover img{
+    transform:scale(1.1);
+}
+.imgBX1:hover img{
+    transform:scale(1.1);
+}
+.imgBX2:hover img{
+    transform:scale(1.1);
+}
+
+
+
+
+
+
+
+
+

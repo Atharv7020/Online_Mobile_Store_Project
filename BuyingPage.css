@@ -1,0 +1,202 @@
+body
+{
+    background-color:rgb(217, 221, 224);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+ 
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #011014;
+}
+
+.logo{
+    margin-left: 1;
+    margin-right: 20px;
+    cursor: pointer;
+    height: 60px;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav__links li a:hover {
+    color: #00a9a9;
+
+}
+
+.hover-line::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #00a9a9;
+    transition:width .3;
+}
+
+.hover-line:hover::after{
+    
+    width: 100%;
+    transition: width .5s;
+}
+button{
+    padding: 9px;
+    background-color: rgb(173, 11, 3);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(250, 19, 19);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+}
+
+.wrapper{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text{
+    flex-basis: 45%;
+}
+.all-images{
+    height: 80vh;
+    display: flex;
+
+}
+
+.small-images{
+    display: flex;
+    flex-direction: column;
+}
+
+.small-images img{
+    height: 19vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.small-images img:hover{
+    opacity: 1;
+}
+.main-images img{
+    height: 100%;
+}
+
+p{
+    margin-bottom: 20px;
+
+}
+.brand{
+    background-color: #14a46d;
+    width: fit-content;
+    font-size: 20px;
+    counter-reset: fit-content;
+    padding: 2px 5px;
+}
+h2{
+    font-size: 35px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.review{
+    background-color: #008000;
+    display: inline-block;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.review.fa{
+    color: #fff;
+
+}
+
+.price{
+    color: rgb(29,28,28);
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.price-box{
+    display: flex;
+    align-items: center;
+
+}
+
+input{
+    width: 30px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buy {
+    width: 130px;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #fe980f;
+}
+
+button.fa{
+    margin-right: 10px;
+}
